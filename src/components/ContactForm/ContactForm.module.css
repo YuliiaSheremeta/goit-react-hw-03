@@ -1,0 +1,23 @@
+.form{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   
+}
+.button{
+    border-radius: 4px;
+    width: 140px;
+    background-color: #ac79de;
+    border: 1px solid rgb(44, 1, 44);
+    text-align: center;
+    margin: 20px;
+    
+}
+.button:hover,
+.button:focus{
+    background-color: #0cb230;
+}
