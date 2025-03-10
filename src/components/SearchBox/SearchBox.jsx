@@ -10,7 +10,7 @@ export default function SearchBox({value,onChange}) {
 
     return (
         <div className={css.container}>
-            <label htmlFor={filterId}>Find contacts by name</label>
+            <label className={css.label} htmlFor={filterId}>Find contacts by name</label>
             <input type="text" id={filterId} value={value} onChange={filterResults}/>  
         </div>
     );

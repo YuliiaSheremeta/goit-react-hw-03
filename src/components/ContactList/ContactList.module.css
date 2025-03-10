@@ -1,4 +1,13 @@
-/*.list{
+.contactList{
     display: flex;
-    gap: 10px;
-}*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-left: 0;
+    gap: 15px;
+    
+}
+.contactItem{
+    flex: 0 0 calc(33.33% - 10px);
+ 
+}
